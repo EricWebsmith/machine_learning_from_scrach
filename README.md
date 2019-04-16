@@ -5,7 +5,9 @@ In this repo I wrote machine learning algorithms step by step with python. With 
 This is a Chinese repositary.
 
 ## 目录
-[线性回归]()
-[决策树]()
+
+[线性回归](https://github.com/juwikuang/machine_learning_step_by_step/blob/master/linear_regression.ipynb)
+
+[决策树](https://github.com/juwikuang/machine_learning_step_by_step/blob/master/decision_tree.ipynb)
 
 
