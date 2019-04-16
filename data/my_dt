@@ -1,0 +1,35 @@
+
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname=helvetica] ;
+edge [fontname=helvetica] ;
+0 [label=<edu_associate?<br/>entropy = 0.994<br/>samples = 3928<br/>value = [1786, 2142]<br/>class = low> , fillcolor="#FFFFFFFF"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="no"]; 
+1 [label=<career_algorithm?<br/>entropy = 0.993<br/>samples = 2786<br/>value = [1531, 1255]<br/>class = high> , fillcolor="#FFFFFFFF"] ;
+1 -> 2 [labeldistance=2.5, labelangle=45, headlabel="no"]; 
+2 [label=<pl_go?<br/>entropy = 1.000<br/>samples = 2418<br/>value = [1217, 1201]<br/>class = high> , fillcolor="#FFFFFFFF"] ;
+2 -> 3 [labeldistance=2.5, labelangle=45, headlabel="no"]; 
+3 [label=<entropy = 0.998<br/>samples = 2084<br/>value = [981, 1103]<br/>class = low> , fillcolor="#FFFFFFFF"] ;
+2 -> 6 [labeldistance=2.5, labelangle=45, headlabel="yes"]; 
+6 [label=<entropy = 0.873<br/>samples = 334<br/>value = [236, 98]<br/>class = high> , fillcolor="#FFFFFFFF"] ;
+1 -> 9 [labeldistance=2.5, labelangle=45, headlabel="yes"]; 
+9 [label=<pl_c_sharp?<br/>entropy = 0.602<br/>samples = 368<br/>value = [314, 54]<br/>class = high> , fillcolor="#FFFFFFFF"] ;
+9 -> 10 [labeldistance=2.5, labelangle=45, headlabel="no"]; 
+10 [label=<entropy = 0.552<br/>samples = 351<br/>value = [306, 45]<br/>class = high> , fillcolor="#FFFFFFFF"] ;
+9 -> 13 [labeldistance=2.5, labelangle=45, headlabel="yes"]; 
+13 [label=<entropy = 0.998<br/>samples = 17<br/>value = [8, 9]<br/>class = low> , fillcolor="#FFFFFFFF"] ;
+0 -> 16 [labeldistance=2.5, labelangle=45, headlabel="yes"]; 
+16 [label=<pl_python?<br/>entropy = 0.766<br/>samples = 1142<br/>value = [255, 887]<br/>class = low> , fillcolor="#FFFFFFFF"] ;
+16 -> 17 [labeldistance=2.5, labelangle=45, headlabel="no"]; 
+17 [label=<career_software_engineer?<br/>entropy = 0.729<br/>samples = 1047<br/>value = [213, 834]<br/>class = low> , fillcolor="#FFFFFFFF"] ;
+17 -> 18 [labeldistance=2.5, labelangle=45, headlabel="no"]; 
+18 [label=<entropy = 0.999<br/>samples = 48<br/>value = [23, 25]<br/>class = low> , fillcolor="#FFFFFFFF"] ;
+17 -> 21 [labeldistance=2.5, labelangle=45, headlabel="yes"]; 
+21 [label=<entropy = 0.702<br/>samples = 999<br/>value = [190, 809]<br/>class = low> , fillcolor="#FFFFFFFF"] ;
+16 -> 24 [labeldistance=2.5, labelangle=45, headlabel="yes"]; 
+24 [label=<db_SQL_Server?<br/>entropy = 0.990<br/>samples = 95<br/>value = [42, 53]<br/>class = low> , fillcolor="#FFFFFFFF"] ;
+24 -> 25 [labeldistance=2.5, labelangle=45, headlabel="no"]; 
+25 [label=<entropy = 0.999<br/>samples = 88<br/>value = [42, 46]<br/>class = low> , fillcolor="#FFFFFFFF"] ;
+24 -> 28 [labeldistance=2.5, labelangle=45, headlabel="yes"]; 
+28 [label=<entropy = 0.000<br/>samples = 7<br/>value = [0, 7]<br/>class = low> , fillcolor="#FFFFFFFF"] ;
+
+}
