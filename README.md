@@ -10,4 +10,8 @@ This is a Chinese repositary.
 
 [决策树](https://github.com/juwikuang/machine_learning_step_by_step/blob/master/decision_tree.ipynb)
 
+[Logistic Regression](https://github.com/juwikuang/machine_learning_step_by_step/blob/master/logistic_regression.ipynb)
+
+[kmeans](https://github.com/juwikuang/machine_learning_step_by_step/blob/master/kmeans.ipynb)
+
 
