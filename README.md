@@ -15,3 +15,6 @@ This is a Chinese repositary.
 [kmeans](https://github.com/juwikuang/machine_learning_step_by_step/blob/master/kmeans.ipynb)
 
 
+Chinese speaking users can visit CSDN column:
+中文用户可以访问CSDN专栏
+https://blog.csdn.net/juwikuang/category_9336202.html
